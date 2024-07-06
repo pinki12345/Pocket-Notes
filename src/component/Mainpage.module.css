@@ -1,0 +1,21 @@
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .mainImage {
+    width: 30vw;
+    margin-bottom: 1vh;
+  }
+  
+  .mainTitle {
+    margin-bottom: 1vh;
+  }
+  
+  .mainDescription {
+    width: 28vw;
+  }
+  

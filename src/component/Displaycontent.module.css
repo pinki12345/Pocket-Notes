@@ -1,0 +1,202 @@
+.desktopcontainer {
+  width: 70%;
+  height: 100%;
+}
+.mobilecontainer {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.innerContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.marginBottom {
+  margin-bottom: 1.5rem;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 8vh;
+  background-color: #e8e8e8;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.backIcon {
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.groupIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+}
+
+.groupName {
+  margin: 0;
+}
+
+.mobileContent {
+  width: 100%;
+  margin-top: 3vh;
+  height: calc(100vh - 8vh - 25vh);
+
+  overflow-y: auto;
+
+  background-color: #f7ecdc;
+}
+
+.desktopContent {
+  width: 100%;
+  height: calc(100vh - 12vh - 28vh);
+
+  overflow-y: auto;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f7ecdc;
+}
+
+.textItem {
+  width: 90%;
+  display: flex;
+  gap: 1vw;
+}
+
+.textItemMargin {
+  margin-bottom: 2rem;
+}
+
+.mobileTextItemMargin {
+  margin-bottom: 1rem;
+}
+
+.timestamp {
+  width: 15vw;
+}
+
+.mobileTimestamp {
+  width: 25vw;
+}
+
+.text {
+  width: 65vw;
+  font-weight: 400;
+}
+
+.mainPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7ecdc;
+}
+
+.mobileFooter {
+  height: 25vh;
+  margin-bottom: 0px !important;
+  border-bottom-left-radius: 0px;
+
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.desktopFooter {
+  height: 32vh;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  border-bottom-left-radius: 1rem;
+  position: relative;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  border: 1px solid lightgray;
+  outline: none;
+  font-weight: 400;
+  box-sizing: border-box;
+  max-width: calc(100% - 3rem);
+  position: relative;
+}
+
+.mobileTextarea {
+  width: 100%;
+  height: 18vh;
+  padding: 0.6rem;
+}
+
+.desktopTextarea {
+  height: 22vh;
+  padding: 1rem;
+}
+
+.sendIcon {
+  position: absolute;
+  top: 68%;
+  transform: translateY(-50%);
+  color: #000;
+  cursor: pointer;
+  right: 2.5rem;
+}
+
+.mobileSendIcon {
+  top: 70%;
+  width: 5vw;
+  height: 2.5vh;
+}
+
+.desktopSendIcon {
+  width: 2vw;
+  height: 3.5vh;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #f7ecdc;
+  }
+  .footer {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+}

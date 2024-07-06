@@ -1,0 +1,123 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 6000;
+}
+
+.modalContent {
+  position: relative;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.modalContentMobile {
+  padding: 1rem;
+  width: 80%;
+}
+
+.modalTitle {
+  margin-bottom: 2rem;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.modalTitleMobile {
+  font-size: 25px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  margin-bottom: 2rem;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.formGroupMobile {
+  gap: 3vw;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.labelMobile {
+  font-size: 15px;
+}
+
+.input {
+  border-radius: 22px;
+  width: 65%;
+  padding: 0.8vw;
+  border: 2px solid #cccccc;
+}
+
+.inputMobile {
+  padding: 0.4rem;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.colorPicker {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+.colorOption {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.colorOptionMobile {
+  width: 20px;
+  height: 20px;
+}
+
+.colorSelected {
+  border: 2px solid black;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonContainerMobile {
+  justify-content: center;
+}
+
+.button {
+  padding: 0.5rem 1.5rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonMobile {
+  width: 60%;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 18px;
+}
